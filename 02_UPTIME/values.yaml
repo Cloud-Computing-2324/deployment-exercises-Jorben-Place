@@ -1,7 +1,7 @@
 ingress:
   enabled: true
   hosts:
-    - host: uptime.44.cc.ucll.cloud
+    - host: optijd.44.cc.ucll.cloud
       paths:
         - path: /
           pathType: Prefix
