@@ -1,13 +1,7 @@
 ingress:
   enabled: true
-  annotations:
-    cert-manager.io/cluster-issuer: cluster-issuer
   hosts:
     - host: uptime.44.cc.ucll.cloud
       paths:
         - path: /
           pathType: Prefix
-  tls:
-    - secretName: uptime-kuma-tls
-      hosts:
-        - uptime.44.co.ucll.cloud
